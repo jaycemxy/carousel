@@ -24,7 +24,7 @@ function setTimer() {
     return setInterval(() => {
         n += 1
         playSlide(n % size)
-    }, 3000)
+    }, 2000)
 }
 
 function playSlide(index) {
